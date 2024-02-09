@@ -1,0 +1,42 @@
+.mobile-menu {
+  position: relative;
+  display: flex;
+  background-color: #E3E2DF;
+  padding: 2rem; 
+  justify-content: space-between;
+  align-items: center;
+  transition: background 0.2s linear;
+}
+  
+.menu-icon {
+  font-size: 3rem; 
+  cursor: pointer;
+  color: #5D001E;
+  width: auto;
+}
+  
+.menu-items {
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  top: 7rem;
+  z-index: 10;
+  background-color: #E3E2DF;
+  width: 100%;
+  margin-left: -2rem;
+  transition: background 0.2s linear;
+}
+  
+.menu-items a {
+  color: #9A1750;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  padding-top: 2rem; 
+  display: block;
+  font-size: 2rem; 
+  text-align: center;
+}
+
+.menu-items :last-child{
+  padding-bottom: 1rem;
+}

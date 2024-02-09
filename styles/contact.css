@@ -1,0 +1,67 @@
+.contact-section {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.contact-links {
+    color: white;
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0.625rem 2.5rem;
+    margin-top: 0.625rem;
+    margin-bottom: 3.125rem;
+    text-align: center; 
+}
+
+.contact-links a {
+    text-decoration: none;
+    height: 5rem;
+    background-color: rgb(255, 255, 255);
+    width: 5rem;
+    border: 0.15625rem solid #9A1750;
+    border-radius: 50%;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    background-size: cover;
+}
+
+.contact-links a:hover {
+    background-color: #9A1750;
+    color: #ffffff;
+}
+
+.telefone {
+    font-size: 1.2rem;
+    color: #9A1750;
+    margin-bottom: -0.625rem;
+}
+
+.brasil {
+    position: absolute;
+    margin-top: 0.3rem;
+    margin-left: -1.3rem;
+    width: 1rem;
+}
+
+.contact-links a.github {
+    background-image: url("https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg");
+}
+
+.contact-links a.linkedin {
+    background-image: url("https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg");
+    background-size: 110%;
+    background-position: 70% 30%;
+}
+
+.linkhub {
+    color: #9A1750;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+}
+
+#contact{
+    margin-top: 14rem;
+}
+
+
+

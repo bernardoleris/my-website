@@ -1,0 +1,30 @@
+.language {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+  
+.language-button {
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer; /* Adiciona cursor de ponteiro para indicar que é clicável */
+}
+  
+.language-button img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Mantém a proporção da imagem sem distorcer */
+}
+  
+.idioma {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+}
+
+.checked {
+  background-color: #e2e2e2; /* Cor de fundo quando estiver marcado */
+  border-radius: 50%; /* Adiciona borda arredondada */
+}
+  

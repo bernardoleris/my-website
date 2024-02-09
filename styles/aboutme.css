@@ -1,0 +1,50 @@
+body {
+    background-color: #E3E2DF;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: background 0.2s linear;
+}
+
+.container-about {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.first-text {
+    color: #E3E2DF;
+    margin-top: 8rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 9rem;
+    -webkit-text-stroke: 0.1rem #9A1750;
+    max-width: 30rem;
+}
+
+.second-text {
+    font-family: 'Poppins', sans-serif;
+    color: #5D001E;
+    font-size: 1.2rem;
+    max-width: 40rem;
+    text-align: center;
+}
+
+.curriculum {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 1.6rem;
+    margin-top: 3rem;
+    width: 14rem;
+    text-align: center;
+    background-color: #5D001E;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+    border: 0.15rem solid #9A1750;
+}
+
+.curriculum:hover {
+    border-color: white;
+}

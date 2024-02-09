@@ -1,0 +1,75 @@
+.container-prog{
+    display: grid;
+    grid-template-columns: 5rem 5rem 5rem; 
+    row-gap: 1rem; 
+    column-gap: 5rem; 
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #9A1750;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem; 
+}
+
+.container-prog > :nth-child(6) {
+    margin-left: -1.8rem; 
+}
+
+.container-frame{
+    display: grid;
+    grid-template-columns: 5rem 5rem 5rem 5rem 5rem 5rem 5rem; 
+    row-gap: 1rem; 
+    column-gap: 5rem; 
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #9A1750;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem; 
+}
+
+.container-frame > :nth-child(9) {
+    margin-left: -0.5rem; 
+}
+
+.container-frame > :nth-child(14) {
+    margin-left: -1.5rem; 
+}
+
+.container-db{
+    display: grid;
+    grid-template-columns: 5rem 5rem 5rem; 
+    row-gap: 1rem; 
+    column-gap: 9rem; 
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #9A1750;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem; 
+}
+
+.container-db > :nth-child(5){
+    margin-left: -2rem; 
+}
+
+.container-db > :nth-child(6) {
+    margin-left: -1.3rem; 
+}
+
+.container-tk{
+    display: grid;
+    grid-template-columns: 5rem 5rem 5rem 5rem 5rem; 
+    column-gap: 10rem; 
+    justify-content: center;
+    align-items: center;
+    color: #9A1750;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem; 
+}
+
+.container-tk > * {
+    margin-left: -3rem; 
+    width: 10rem; 
+    text-align: center;
+}
