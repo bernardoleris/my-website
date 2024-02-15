@@ -79,6 +79,8 @@
         color: #9A1750;
         font-family: 'Poppins', sans-serif;
         font-size: 1.2rem;
+        width: 6rem;
+        margin: auto;
     }
 
     .container-frame > :nth-child(9) {
